@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const phone = document.getElementById("phone")?.value || "N/A";
       const message = document.getElementById("message")?.value || "N/A";
 
-      const recipientEmail = "ventasmx@demakhan.com";
+      const recipientEmail = "demakhanindustrial@gmail.com";
       const subject = encodeURIComponent(
         `New Contact Form Submission from ${name}`
       );
@@ -76,7 +76,7 @@ ${message}
         }, 1000); // 1 second delay
       } catch (e) {
         alert(
-          "Could not open email client. Please ensure you have one configured, or manually send an email to ventasmx@demakhan.com with the following details:\n\n" +
+          "Could not open email client. Please ensure you have one configured, or manually send an email to Demakhanindustrial@gmail.com with the following details:\n\n" +
             decodeURIComponent(body)
         );
         console.error("Mailto link failed:", e);
